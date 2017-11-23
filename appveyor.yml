@@ -11,7 +11,7 @@ install:
   - cmd: ls
   - cmd: echo hmm what will happen?
   - cmd: echo tortured
-  - cmd: npm run test
+  - cmd: make test
 
 cache:
   - node_modules
