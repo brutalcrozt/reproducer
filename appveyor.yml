@@ -1,4 +1,3 @@
-environment:
 before_build:
   - cmd: echo before_build
 install:
