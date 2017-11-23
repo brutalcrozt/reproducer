@@ -2,7 +2,7 @@ before_build:
   - cmd: echo before_build
 install:
   - cinst cmder
-  - cmd: echo typo
+  - cmd: refreshenv
   - cmd: cmder
   - cmd: ls
 build: off
