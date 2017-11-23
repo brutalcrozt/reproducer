@@ -1,2 +1,4 @@
 install:
   - cinst cmder
+
+build: off
