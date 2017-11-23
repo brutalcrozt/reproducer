@@ -6,9 +6,16 @@ install:
   - cmd: cmder
   - cmd: ls
   - cmd: git clone https://github.com/chaijs/chai.git
-  - cmd: cd chai && npm i
+  - cmd: cd chai
+  - cmd: npm i
+  - cmd: ls
   - cmd: echo hmm what will happen?
   - cmd: echo tortured
   - cmd: npm run test
 
+cache:
+  - node_modules
+  - '%APPDATA%\npm-cache'
+  - C:\ProgramData\chocolatey\bin -> appveyor.yml
+  - C:\ProgramData\chocolatey\lib -> appveyor.yml
 build: off
