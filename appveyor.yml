@@ -5,4 +5,10 @@ install:
   - cmd: refreshenv
   - cmd: cmder
   - cmd: ls
+  - cmd: git clone https://github.com/chaijs/chai.git
+  - cmd: cd chai && npm i
+  - cmd: echo hmm what will happen?
+  - cmd: echo tortured
+  - cmd: npm run test
+
 build: off
