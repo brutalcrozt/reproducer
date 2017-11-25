@@ -8,6 +8,7 @@ install:
   - cmd: git clone https://github.com/chaijs/chai.git
   - cmd: cd chai
   - cmd: npm i
+  - cmd: npm i -g make
   - cmd: ls
   - cmd: echo hmm what will happen?
   - cmd: echo tortured
